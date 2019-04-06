@@ -14,7 +14,7 @@ const observerA = {
 
 // And the following line is equivalent to do: observable.subscribe(subject);
 connectableObservable.connect();
-// And the line is equivalent to do: subject.subscribe(observerA);
+// And this line is equivalent to do: subject.subscribe(observerA);
 connectableObservable.subscribe(observerA);
 
 const observerB = {
