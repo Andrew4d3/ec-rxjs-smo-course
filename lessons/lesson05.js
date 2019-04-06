@@ -42,5 +42,5 @@ setTimeout(function () {
 
 
 /*
-The obsever B will only receive the values 2 and 3, since they were generated within the las 250 ms
+The obsever B will only receive the values 2 and 3, since they were generated within the last 250 ms
 */
