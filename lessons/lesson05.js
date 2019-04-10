@@ -1,6 +1,6 @@
 // First argument is how many values I want to remember to be replayed
 // The second argument is optional and it's the window's size where values are going to be remembered
-// For example a windows size of 250 fill remember all the values within the last 250 ms
+// For example a windows size of 250 will remember all the values within the last 250 ms
 const subject = new Rx.ReplaySubject(100, 250);
            // new Rx.BehaviorSubject(0);
 
