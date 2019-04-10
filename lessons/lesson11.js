@@ -1,6 +1,6 @@
 /*
   So far we have been using one single instance of subject. So once the observable completes, the subject will stop receving events
-  But what if we want to receive events again, like subscribing again?
+  But what if we want to receive events again? I mean... like subscribing again?
   For such cases, we need to use a "Subject Factory" function instead a subject instance
 */
 function subjectFactory() {
