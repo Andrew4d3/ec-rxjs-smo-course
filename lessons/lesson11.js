@@ -9,7 +9,7 @@ function subjectFactory() {
 
 var shared = Rx.Observable.interval(1000).take(6)
   .do(x => console.log('source ' + x))
-  .multicast(subjectFactory) // Now this is a factory function instead of an instance
+  .multicast(subjectFactory) // This is a factory function instead of an instance
   .refCount();
 
 
