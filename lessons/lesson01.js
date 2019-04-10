@@ -1,7 +1,7 @@
 // We have this observable
 var observable = Rx.Observable.interval(1000).take(5);
 
-// In order to observe the events from the past observable we can define an observer
+// In order to observe the events from the past observable we must define an observer
 var observerA = {
   next: function (x) { 
     console.log('A next ' + x);
