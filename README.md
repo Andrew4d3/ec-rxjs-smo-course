@@ -6,4 +6,4 @@ These are my notes for this course. All lesson files are located inside the less
 - The different types of subjects: Simple, Behaviour, Replay and Async.
 - How to use the multicast function to handle subjects in a better way.
 
-[Link of the Course](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
+[Course Link](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
